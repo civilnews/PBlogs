@@ -53,6 +53,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact_us">contact Us</a>
           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contact_us">Time:<span class="clock"></span></a>
+          </li>
 
         </ul>
         <form class="d-flex" role="search">
@@ -196,7 +199,7 @@
 
 <body class="text-center">
     
-<main class="form-signin w-50 m-auto">
+<main class="form-signin col-6 m-auto">
   <form>
  
 
@@ -205,7 +208,7 @@
       <label for="floatingInput">Email address</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Write Here">
+      <input type="text" class="form-control" id="floatingPassword" placeholder="Write Here">
       <label for="floatingPassword">Write Here </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
@@ -226,55 +229,56 @@
   
 
  
-
-  <div class="w-125 bg-dark text-white container-fluid py-4 py-md-5 px-4 px-lg-3 justify-content-center">
+<div class= "container-fluid"; style="background-image:url(p.png");"> 
+  <div class="w-125 text-white container-fluid py-4 py-md-5 px-4 px-lg-3 justify-content-center">
     <div class="row justify-content-center">
       
       <div class="col-6 col-lg-2 offset-lg-1 mb-3">
         <h5>Links</h5>
         <ul class="list-unstyled">
-          <li class="mb-2"><a href="/">Home</a></li>
-          <li class="mb-2"><a href="/docs/5.2/">Docs</a></li>
-          <li class="mb-2"><a href="/docs/5.2/examples/">Examples</a></li>
-          <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
-          <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+          <li class="mb-2"><a href="/" class="text-decoration-none">Home</a></li>
+          <li class="mb-2"><a href="/docs/5.2/" class="text-decoration-none">Docs</a></li>
+          <li class="mb-2"><a href="/docs/5.2/examples/" class="text-decoration-none">Examples</a></li>
+          <li class="mb-2"><a href="https://themes.getbootstrap.com/" class="text-decoration-none">Themes</a></li>
+          <li class="mb-2"><a href="https://blog.getbootstrap.com/" class="text-decoration-none">Blog</a></li>
           
         </ul>
       </div>
-      <div class="col-6 col-lg-2 mb-3">
+      <div class="col-6  col-lg-2 mb-3">
         <h5>Career</h5>
         <ul class="list-unstyled">
-          <li class="mb-2"><a href="/docs/5.2/getting-started/">Write For Us</a></li>
-          <li class="mb-2"><a href="/docs/5.2/examples/starter-template/">Rules</a></li>
-          <li class="mb-2"><a href="/docs/5.2/getting-started/webpack/">Jobs</a></li>
-          <li class="mb-2"><a href="/docs/5.2/getting-started/parcel/">News</a></li>
+          <li class="mb-2 "><a href="/docs/5.2/getting-started/" class="text-decoration-none">Write For Us</a></li>
+          <li class="mb-2"><a href="/docs/5.2/examples/starter-template/" class="text-decoration-none">Rules</a></li>
+          <li class="mb-2"><a href="/docs/5.2/getting-started/webpack/" class="text-decoration-none">Jobs</a></li>
+          <li class="mb-2"><a href="/docs/5.2/getting-started/parcel/" class="text-decoration-none">News</a></li>
         </ul>
       </div>
       <div class="col-6 col-lg-2 mb-3">
         <h5>Projects</h5>
         <ul class="list-unstyled">
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Site Map</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">About</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/rfs">Addresses</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap" class="text-decoration-none">Site Map</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" class="text-decoration-none">About</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/icons" class="text-decoration-none">Icons</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/rfs" class="text-decoration-none">Addresses</a></li>
 
         </ul>
       </div>
       <div class="col-6 col-lg-2 mb-3">
         <h5>Others</h5>
         <ul class="list-unstyled">
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Donate</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Blogs</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/icons">Newslater</a></li>
-          <li class="mb-2"><a href="https://github.com/twbs/rfs">services</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap" class="text-decoration-none">Donate</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" class="text-decoration-none">Blogs</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/icons" class="text-decoration-none">Newslater</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/rfs" class="text-decoration-none">services</a></li>
 
         </ul>
       </div>
       
     </div>
   </div>
+</div>
 <p class= "clock col-md-7 mx-auto border-sucess"></p.
-<script getElementById("clock").getdate(hh:mm:ss)> this is a date</script>
+<script> getElementByClassName("time").innerHTML= new date(); </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
